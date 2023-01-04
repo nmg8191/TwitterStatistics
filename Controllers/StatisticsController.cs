@@ -18,6 +18,7 @@ namespace TwitterStatistics.Controllers
         [HttpGet(Name = "GetStatistics")]
         public IEnumerable<TweetSpec> Get()
         {
+            // Call Service -> Repository
             return new List<TweetSpec>() { new TweetSpec(DateTime.Now, 1, new List<string>() { "Sample A", "Sample B" }) };
         }
     }
