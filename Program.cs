@@ -39,6 +39,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+// https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-6.0
 
 
 app.Run();
